@@ -2,18 +2,6 @@ from src.extractor import extract_tables
 from src.processor import process_tables
 from src.ranking import generate_ranking
 
-def extract_tables(pdf_path):
-    # extract logic
-    return tables
-
-def process_tables(tables):
-    # cleaning logic
-    return df_clean
-
-def generate_ranking(df):
-    # sorting and ranking logic
-    return df_ranked
-
 def main():
     pdf_path = "input.pdf"
     tables = extract_tables(pdf_path)
