@@ -1,3 +1,5 @@
+import pandas as pd
+
 def generate_ranking(df: pd.DataFrame) -> pd.DataFrame:
     """Generate ranking sorted by score (descending)."""
     df_ranked = df.sort_values(
