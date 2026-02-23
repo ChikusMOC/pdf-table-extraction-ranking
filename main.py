@@ -1,3 +1,7 @@
+from src.extractor import extract_tables
+from src.processor import process_tables
+from src.ranking import generate_ranking
+
 def extract_tables(pdf_path):
     # extract logic
     return tables
