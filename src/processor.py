@@ -1,3 +1,5 @@
+import pandas as pd
+
 def process_data(tables: list, start_index: int) -> pd.DataFrame:
     """Concatenate tables and clean dataset."""
     df = pd.concat(tables, ignore_index=True)
