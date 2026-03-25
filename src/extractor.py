@@ -8,6 +8,7 @@ def extract_tables(pdf_path: str, pages: str) -> list:
         multiple_tables=True,
         stream=True,
         pandas_options={"header": None},
-        encoding="latin-1"
+        encoding="latin-1",
+        force_subprocess=True
     )
     return tables
