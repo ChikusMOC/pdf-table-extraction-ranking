@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project extracts and transforms structured data from a large official PDF document (600+ relevant pages) to generate an automated ranking based on candidate scores.
+This project extracts and processes structured data from a large official PDF (600+ relevant pages) to generate an automated ranking of candidates based on their scores.
 
 The original document only provided raw individual scores without any classification or ranking.  
 This solution processes the entire dataset, handles inconsistencies, and produces a clean, sortable ranking table using Python.
@@ -75,3 +75,8 @@ The objective was to extract all relevant data and reconstruct a reliable rankin
 - Debugging encoding and structural inconsistencies
 - Analytical thinking and automation
 - Practical problem-solving using Python
+
+## Installation
+
+```bash
+pip install -r requirements.txt
